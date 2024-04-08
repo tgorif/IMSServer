@@ -34,7 +34,6 @@ public class SkuAPI {
     @PostMapping("/entity")
     public int addEntity(@RequestBody SkuEntity entity) {
         logger.log(Level.DEBUG,"request to add entity");
-        HttpStatus
         logger.log(Level.DEBUG,entity.getBarcode() + entity.getExpiration());
         if(entity.getBarcode()== null) {
             // Handle the case where the id is null

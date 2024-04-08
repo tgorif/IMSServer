@@ -1,0 +1,16 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š”›8¡­Òæë1
+^
+java:S3457%"AFormat specifiers should be used instead of string concatenation.(ãÚÀå8©­Òæë1
+^
+java:S3457-"AFormat specifiers should be used instead of string concatenation.(êñ†ı8ª­Òæë1
+c
+java:S34571"AFormat specifiers should be used instead of string concatenation.(øØß¸ÿÿÿÿÿ8ª­Òæë1
+j
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonFormat'.(ıÙè‹øÿÿÿÿ8ª­Òæë1
+x
+java:S1128"VRemove this unused import 'com.fasterxml.jackson.databind.annotation.JsonDeserialize'.(Úˆ×øÿÿÿÿ8ª­Òæë1
+{
+java:S1128"^Remove this unused import 'com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer'.(¯õ…á8ª­Òæë1
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ª­Òæë1
