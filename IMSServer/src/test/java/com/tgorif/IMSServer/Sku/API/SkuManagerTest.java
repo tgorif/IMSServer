@@ -1,10 +1,7 @@
 package com.tgorif.IMSServer.Sku.API;
 
 import com.tgorif.IMSServer.ImsServerApplication;
-import com.tgorif.IMSServer.Sku.Core.NutritionData;
-import com.tgorif.IMSServer.Sku.Core.Sku;
-import com.tgorif.IMSServer.Sku.Core.SkuData;
-import com.tgorif.IMSServer.Sku.Core.SkuEntity;
+import com.tgorif.IMSServer.Sku.Core.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,11 +25,11 @@ public class SkuManagerTest {
     SkuManager skuManager;
 
 
-    private static final SkuData sku_test_delete = new SkuData("Test_DeleteThis", "Test_DeleteThis",new NutritionData());
-    private static final SkuData sku_test = new SkuData("Test_SKU","testsku)",new NutritionData());
+    private static final SkuData sku_test_delete = new SkuData("Test_DeleteThis", "Test_DeleteThis",new NutritionData(), AutoExpirationDate.Three_MONTHS);
+    private static final SkuData sku_test = new SkuData("Test_SKU","testsku)",new NutritionData(), AutoExpirationDate.Three_MONTHS);
 
-    private static final SkuData sku_test_add = new SkuData("Test_Add","testadd",new NutritionData());
-    private static final SkuData sku_test_not_present = new SkuData("Test_Not_Present","getSku_test_not_present",new NutritionData());
+    private static final SkuData sku_test_add = new SkuData("Test_Add","testadd",new NutritionData(), AutoExpirationDate.Three_MONTHS);
+    private static final SkuData sku_test_not_present = new SkuData("Test_Not_Present","getSku_test_not_present",new NutritionData(), AutoExpirationDate.Three_MONTHS);
 
     private static final SkuEntity sku_entity_add = new SkuEntity(LocalDate.now(),sku_test_add.getBarcode());
     private static final Set<SkuEntity> entities = new HashSet<>();

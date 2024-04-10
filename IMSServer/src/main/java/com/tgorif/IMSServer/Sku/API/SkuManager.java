@@ -20,9 +20,6 @@ public class SkuManager {
     private SkuDataRepository skuDataRepository;
     @Autowired
     private SkuEntityRepository entityRepository;
-    @Autowired
-    private SkuRepository skuRepository;
-
     public SkuManager() {
 
     }

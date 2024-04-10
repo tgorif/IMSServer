@@ -3,6 +3,7 @@ package com.tgorif.IMSServer;
 
 
 import com.tgorif.IMSServer.Sku.API.SkuManager;
+import com.tgorif.IMSServer.Sku.Core.AutoExpirationDate;
 import com.tgorif.IMSServer.Sku.Core.NutritionData;
 import com.tgorif.IMSServer.Sku.Core.SkuData;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,6 @@ public class ImsServerApplication implements CommandLineRunner {
 	}
     @Override
 	public void run(String[] args) {
-		skuManager.saveSkuData(new SkuData("dsdasdas","test",new NutritionData()));
+		skuManager.saveSkuData(new SkuData("dsdasdas","test",new NutritionData(), AutoExpirationDate.MONTH));
 	}
 }

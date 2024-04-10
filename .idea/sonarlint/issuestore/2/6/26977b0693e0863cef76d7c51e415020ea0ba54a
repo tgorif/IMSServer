@@ -1,16 +1,27 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š”›8¡­Òæë1
+€
+java:S1192("^Define a constant instead of duplicating this literal "The given id must not be null" 3 times.(øº«Ñÿÿÿÿÿ8ğè ¶ì1
+F
+java:S2629,"$Invoke method(s) only conditionally.(š³£©üÿÿÿÿ8ñè ¶ì1
+F
+java:S26290"$Invoke method(s) only conditionally.(û«ˆşÿÿÿÿ8ñè ¶ì1
+@
+java:S2629C"$Invoke method(s) only conditionally.(şî8ñè ¶ì1
+F
+java:S2629G"$Invoke method(s) only conditionally.(â¦áËùÿÿÿÿ8ñè ¶ì1
+G
+java:S34570"%String contains no format specifiers.(û«ˆşÿÿÿÿ8‹é ¶ì1
 ^
-java:S3457%"AFormat specifiers should be used instead of string concatenation.(ãÚÀå8©­Òæë1
-^
-java:S3457-"AFormat specifiers should be used instead of string concatenation.(êñ†ı8ª­Òæë1
+java:S3457T"AFormat specifiers should be used instead of string concatenation.(£Ä«·8é ¶ì1
 c
-java:S34571"AFormat specifiers should be used instead of string concatenation.(øØß¸ÿÿÿÿÿ8ª­Òæë1
+java:S3457Y"AFormat specifiers should be used instead of string concatenation.(ñÈ²øÿÿÿÿ8é ¶ì1
 j
-java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonFormat'.(ıÙè‹øÿÿÿÿ8ª­Òæë1
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonFormat'.(ıÙè‹øÿÿÿÿ8À— ·ì1
 x
-java:S1128"VRemove this unused import 'com.fasterxml.jackson.databind.annotation.JsonDeserialize'.(Úˆ×øÿÿÿÿ8ª­Òæë1
+java:S1128"VRemove this unused import 'com.fasterxml.jackson.databind.annotation.JsonDeserialize'.(Úˆ×øÿÿÿÿ8À— ·ì1
 {
-java:S1128"^Remove this unused import 'com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer'.(¯õ…á8ª­Òæë1
+java:S1128"^Remove this unused import 'com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer'.(¯õ…á8À— ·ì1
 b
-java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ª­Òæë1
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8À— ·ì1
+T
+java:S1128"7Remove this unused import 'java.net.HttpURLConnection'.(¬¬˜­8À— ·ì1

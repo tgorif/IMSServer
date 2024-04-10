@@ -1,18 +1,15 @@
 
 T
-java:S2629"7Use the built-in formatting to construct this argument.(­Õ®ì8ø„Îãë1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š”›8ù„Îãë1
+java:S2629"7Use the built-in formatting to construct this argument.(­Õ®ì8ì¾û‹ì1
 m
-java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¥Ó±ó8…Îãë1
+java:S3655$"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¥Ó±ó8ô¾û‹ì1
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“Ëé˜üÿÿÿÿ8‚…Îãë1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“Ëé˜üÿÿÿÿ8¯ÊÝ‹ì1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‚…Îãë1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¯ÊÝ‹ì1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‚…Îãë1
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‚…Îãë1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¯ÊÝ‹ì1
 ^
-java:S3457"AFormat specifiers should be used instead of string concatenation.(­Õ®ì8†…Îãë1
+java:S3457"AFormat specifiers should be used instead of string concatenation.(­Õ®ì8ø¾û‹ì1
 `
-java:S1128">Remove this unused import 'com.tgorif.IMSServer.Sku.Core.Sku'.(í—¦òþÿÿÿÿ8Š…Îãë1
+java:S1128">Remove this unused import 'com.tgorif.IMSServer.Sku.Core.Sku'.(í—¦òþÿÿÿÿ8“óü‹ì1
