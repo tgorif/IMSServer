@@ -1,13 +1,12 @@
 package com.tgorif.IMSServer.Sku.API;
 
-import com.tgorif.IMSServer.Sku.Core.Sku;
-import com.tgorif.IMSServer.Sku.Core.SkuData;
-import com.tgorif.IMSServer.Sku.Core.SkuEntity;
+import com.tgorif.IMSServer.Sku.Core.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -20,6 +19,8 @@ public class SkuManager {
     private SkuDataRepository skuDataRepository;
     @Autowired
     private SkuEntityRepository entityRepository;
+    @Autowired
+    private InventoryHistoryRepository inventoryHistoryRepository;
     public SkuManager() {
 
     }
@@ -37,6 +38,7 @@ public class SkuManager {
     }
     public SkuData saveSkuData(SkuData sku){
         if(sku==null) return null;
+        inventoryHistoryRepository.save(new InventoryHistory(sku.getBarcode(), LocalDate.now(), InventoryChangeCode.ADD));
         return skuDataRepository.save(sku);
     }
 
