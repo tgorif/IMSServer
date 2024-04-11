@@ -146,7 +146,7 @@ public class SkuManagerTest {
         boolean expected = true;
 
         // when
-        Set<SkuEntity> actual = skuManager.getEntityForSku("DOES NOT EXIST");
+        Set<SkuEntity> actual = skuManager.getEntitiesForSku("DOES NOT EXIST");
 
         // then
         assertEquals(expected, actual.isEmpty());
@@ -158,7 +158,7 @@ public class SkuManagerTest {
         skuManager.saveSkuData(sku_test_add);
 
         // when
-        Set<SkuEntity> actual = skuManager.getEntityForSku(sku_test_add.getBarcode());
+        Set<SkuEntity> actual = skuManager.getEntitiesForSku(sku_test_add.getBarcode());
 
         // then
         assertEquals(expected, actual.isEmpty());
@@ -169,7 +169,7 @@ public class SkuManagerTest {
         int expected = 3;
 
         // when
-        Set<SkuEntity> actual = skuManager.getEntityForSku(sku_test.getBarcode());
+        Set<SkuEntity> actual = skuManager.getEntitiesForSku(sku_test.getBarcode());
 
         // then
         assertEquals(expected, actual.size());
@@ -179,7 +179,7 @@ public class SkuManagerTest {
         // given
         String expected= sku_test.getBarcode();
         // when
-        Set<SkuEntity> actual = skuManager.getEntityForSku(sku_test.getBarcode());
+        Set<SkuEntity> actual = skuManager.getEntitiesForSku(sku_test.getBarcode());
         // then
         for(SkuEntity s : actual){
             assertEquals(expected,s.getBarcode());
@@ -204,6 +204,6 @@ public class SkuManagerTest {
             }
         }
         //then
-        assertEquals(expected,skuManager.getEntityForSku("DELETE THIS").size());
+        assertEquals(expected,skuManager.getEntitiesForSku("DELETE THIS").size());
     }
 }

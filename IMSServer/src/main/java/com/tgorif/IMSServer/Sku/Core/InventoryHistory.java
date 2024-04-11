@@ -5,29 +5,41 @@ import jakarta.persistence.GenerationType;
 import org.springframework.data.annotation.Id;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class InventoryHistory {
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String barcode;
-    private LocalDate date;
+
+    public LocalDateTime getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDateTime date) {
+        this.date = date;
+    }
+
+    private LocalDateTime date;
     private InventoryChangeCode operation;
 
-    public InventoryHistory(String barcode, LocalDate date, InventoryChangeCode operation) {
+    public InventoryHistory(String barcode, LocalDateTime date, InventoryChangeCode operation) {
         this.barcode = barcode;
         this.date = date;
         this.operation = operation;
     }
 
 
-    public LocalDate getDate() {
-        return date;
-    }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
-    }
 
     public InventoryChangeCode getOperation() {
         return operation;

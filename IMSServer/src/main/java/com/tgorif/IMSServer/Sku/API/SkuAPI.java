@@ -92,7 +92,7 @@ public class SkuAPI {
     }
     @GetMapping("/getSkuStatus/{id}")
     public SkuAPIResponse getSkuInformation(@PathVariable String id) {
-        logger.log(Level.DEBUG,"request to get SkuData");
+        logger.log(Level.DEBUG,"request to get Sku Information");
         if(id==null){
             return new SkuAPIResponse(SKUResponseCode.REQUEST_NULL);
         }
@@ -106,6 +106,25 @@ public class SkuAPI {
             else{
                 return new SkuAPIResponse(SKUResponseCode.AUTOEXPDATE_FOUND);
             }
+        }
+    }
+    @GetMapping("/getSkuData/{id}")
+    public SkuData getSkuData(@PathVariable String id) {
+        logger.log(Level.DEBUG,"request to get SkuData");
+        if(id==null){
+            return null;
+        }
+        else return skuManager.getSkuData(id);
+    }
+    @DeleteMapping("/deleteEntity/{id}")
+    public SkuAPIResponse deleteEntity(@PathVariable String id) {
+        logger.log(Level.DEBUG,"request to delete Entity");
+        if(!skuManager.skuExists(id)){
+            return new SkuAPIResponse(SKUResponseCode.SKU_NOT_FOUND);
+        }
+        else{
+            skuManager.deleteEntity(id);
+            return new SkuAPIResponse(SKUResponseCode.ACCEPTED);
         }
     }
 }
