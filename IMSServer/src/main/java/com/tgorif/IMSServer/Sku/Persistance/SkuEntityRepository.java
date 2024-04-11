@@ -1,4 +1,4 @@
-package com.tgorif.IMSServer.Sku.API;
+package com.tgorif.IMSServer.Sku.Persistance;
 
 import com.tgorif.IMSServer.Sku.Core.Sku;
 import com.tgorif.IMSServer.Sku.Core.SkuEntity;

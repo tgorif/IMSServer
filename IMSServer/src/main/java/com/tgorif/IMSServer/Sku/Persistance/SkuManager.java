@@ -1,4 +1,4 @@
-package com.tgorif.IMSServer.Sku.API;
+package com.tgorif.IMSServer.Sku.Persistance;
 
 import com.tgorif.IMSServer.Sku.Core.*;
 import org.apache.logging.log4j.LogManager;
@@ -6,7 +6,6 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Optional;

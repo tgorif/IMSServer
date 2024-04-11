@@ -1,20 +1,16 @@
 package com.tgorif.IMSServer.Sku.API;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 import com.tgorif.IMSServer.Sku.Core.AutoExpirationDate;
 import com.tgorif.IMSServer.Sku.Core.Sku;
 import com.tgorif.IMSServer.Sku.Core.SkuData;
 import com.tgorif.IMSServer.Sku.Core.SkuEntity;
+import com.tgorif.IMSServer.Sku.Persistance.SkuManager;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.net.HttpURLConnection;
 import java.time.LocalDate;
 
 @RestController

@@ -1,27 +1,17 @@
 
 €
-java:S1192("^Define a constant instead of duplicating this literal "The given id must not be null" 3 times.(øº«Ñÿÿÿÿÿ8¯èÄì1
+java:S1192$"^Define a constant instead of duplicating this literal "The given id must not be null" 3 times.(øº«Ñÿÿÿÿÿ8¯èÄì1
 F
-java:S2629,"$Invoke method(s) only conditionally.(š³£©üÿÿÿÿ8°èÄì1
+java:S2629("$Invoke method(s) only conditionally.(š³£©üÿÿÿÿ8°èÄì1
 F
-java:S26290"$Invoke method(s) only conditionally.(û«ˆşÿÿÿÿ8°èÄì1
+java:S2629,"$Invoke method(s) only conditionally.(û«ˆşÿÿÿÿ8°èÄì1
 @
-java:S2629C"$Invoke method(s) only conditionally.(şî8°èÄì1
+java:S2629?"$Invoke method(s) only conditionally.(şî8°èÄì1
 F
-java:S2629G"$Invoke method(s) only conditionally.(â¦áËùÿÿÿÿ8°èÄì1
+java:S2629C"$Invoke method(s) only conditionally.(â¦áËùÿÿÿÿ8°èÄì1
 G
-java:S34570"%String contains no format specifiers.(û«ˆşÿÿÿÿ8½èÄì1
+java:S3457,"%String contains no format specifiers.(û«ˆşÿÿÿÿ8½èÄì1
 ^
-java:S3457T"AFormat specifiers should be used instead of string concatenation.(£Ä«·8ÀèÄì1
+java:S3457P"AFormat specifiers should be used instead of string concatenation.(£Ä«·8ÀèÄì1
 c
-java:S3457Y"AFormat specifiers should be used instead of string concatenation.(ñÈ²øÿÿÿÿ8ÁèÄì1
-j
-java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonFormat'.(ıÙè‹øÿÿÿÿ8ïşÿìì1
-x
-java:S1128"VRemove this unused import 'com.fasterxml.jackson.databind.annotation.JsonDeserialize'.(Úˆ×øÿÿÿÿ8ğşÿìì1
-{
-java:S1128"^Remove this unused import 'com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer'.(¯õ…á8ğşÿìì1
-b
-java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ğşÿìì1
-T
-java:S1128"7Remove this unused import 'java.net.HttpURLConnection'.(¬¬˜­8ğşÿìì1
+java:S3457U"AFormat specifiers should be used instead of string concatenation.(ñÈ²øÿÿÿÿ8ÁèÄì1

@@ -2,6 +2,7 @@ package com.tgorif.IMSServer.Sku.API;
 
 import com.tgorif.IMSServer.ImsServerApplication;
 import com.tgorif.IMSServer.Sku.Core.*;
+import com.tgorif.IMSServer.Sku.Persistance.SkuManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
