@@ -3,8 +3,6 @@ package com.tgorif.IMSServer.Sku.Core;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import org.springframework.data.annotation.Id;
-
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class InventoryHistory {
