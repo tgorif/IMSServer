@@ -10,6 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.core.env.ConfigurableEnvironment;
+import org.springframework.core.env.MapPropertySource;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+
+import java.util.Collections;
 
 @SpringBootApplication
 public class ImsServerApplication implements CommandLineRunner {
@@ -22,5 +27,6 @@ public class ImsServerApplication implements CommandLineRunner {
 	}
     @Override
 	public void run(String[] args) {
+
 	}
 }

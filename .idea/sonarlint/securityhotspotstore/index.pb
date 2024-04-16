@@ -3209,3 +3209,5 @@ LIMSServer/src/main/java/com/tgorif/IMSServer/Sku/Persistance/SkuManager.java,9
 UIMSServer/src/main/java/com/tgorif/IMSServer/Sku/Persistance/SkuEntityRepository.java,9\b\9bdce8413249f130a35e249e0668f758b0e8f48c
 ƒ
 SIMSServer/src/main/java/com/tgorif/IMSServer/Sku/Persistance/SkuDataRepository.java,7\4\743cc908ec7683de59bd419880f6040a04815a09
+m
+=IMSServer/src/main/java/com/tgorif/IMSServer/MongoConfig.java,2\d\2d0bec28570513a289c9f43c3bbf8cb70e64d4b5

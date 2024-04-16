@@ -1,11 +1,19 @@
 
 ž
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿª²²8ÓÜ§íì1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿª²²8ŒÏõ³î1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÊÑÆŒì1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÊÑÆŒì1
 j
-java:S1128"MRemove this unused import 'com.tgorif.IMSServer.Sku.Core.AutoExpirationDate'.(¶¼Äï8ÖÜ§íì1
+java:S1128"MRemove this unused import 'com.tgorif.IMSServer.Sku.Core.AutoExpirationDate'.(¶¼Äï8ŽÏõ³î1
 j
-java:S1128"HRemove this unused import 'com.tgorif.IMSServer.Sku.Core.NutritionData'.(‰³¶¹ùÿÿÿÿ8ÖÜ§íì1
+java:S1128"HRemove this unused import 'com.tgorif.IMSServer.Sku.Core.NutritionData'.(‰³¶¹ùÿÿÿÿ8ŽÏõ³î1
 _
-java:S1128"BRemove this unused import 'com.tgorif.IMSServer.Sku.Core.SkuData'.(Ÿµ˜Â8ÖÜ§íì1
+java:S1128"BRemove this unused import 'com.tgorif.IMSServer.Sku.Core.SkuData'.(Ÿµ˜Â8ŽÏõ³î1
+n
+java:S1128"QRemove this unused import 'org.springframework.core.env.ConfigurableEnvironment'.(µ“êñ8ŽÏõ³î1
+m
+java:S1128"KRemove this unused import 'org.springframework.core.env.MapPropertySource'.(Òù¥¹ûÿÿÿÿ8ŽÏõ³î1
+„
+java:S1128"gRemove this unused import 'org.springframework.data.mongodb.repository.config.EnableMongoRepositories'.(ÆàÉ÷8ÂÑš´î1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8ŽÏõ³î1
