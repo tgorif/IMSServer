@@ -1,17 +1,19 @@
 
 €
-java:S1192$"^Define a constant instead of duplicating this literal "The given id must not be null" 3 times.(øº«Ñÿÿÿÿÿ8¯èÄì1
+java:S1192%"^Define a constant instead of duplicating this literal "The given id must not be null" 3 times.(øº«Ñÿÿÿÿÿ8ú‹ù²î1
 F
-java:S2629("$Invoke method(s) only conditionally.(š³£©üÿÿÿÿ8°èÄì1
+java:S2629)"$Invoke method(s) only conditionally.(š³£©üÿÿÿÿ8û‹ù²î1
 F
-java:S2629,"$Invoke method(s) only conditionally.(û«ˆşÿÿÿÿ8°èÄì1
+java:S2629-"$Invoke method(s) only conditionally.(û«ˆşÿÿÿÿ8û‹ù²î1
 @
-java:S2629?"$Invoke method(s) only conditionally.(şî8°èÄì1
+java:S2629@"$Invoke method(s) only conditionally.(şî8û‹ù²î1
 F
-java:S2629C"$Invoke method(s) only conditionally.(â¦áËùÿÿÿÿ8°èÄì1
+java:S2629D"$Invoke method(s) only conditionally.(â¦áËùÿÿÿÿ8û‹ù²î1
 G
-java:S3457,"%String contains no format specifiers.(û«ˆşÿÿÿÿ8½èÄì1
+java:S3457-"%String contains no format specifiers.(û«ˆşÿÿÿÿ8Œù²î1
 ^
-java:S3457P"AFormat specifiers should be used instead of string concatenation.(£Ä«·8ÀèÄì1
+java:S3457Q"AFormat specifiers should be used instead of string concatenation.(£Ä«·8‘Œù²î1
 c
-java:S3457U"AFormat specifiers should be used instead of string concatenation.(ñÈ²øÿÿÿÿ8ÁèÄì1
+java:S3457V"AFormat specifiers should be used instead of string concatenation.(ñÈ²øÿÿÿÿ8’Œù²î1
+I
+java:S1168ˆ"+Return an empty collection instead of null.(¥¹ï8£Œù²î1

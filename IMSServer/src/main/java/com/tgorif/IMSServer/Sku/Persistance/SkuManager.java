@@ -26,32 +26,30 @@ public class SkuManager {
     }
 
     public boolean skuExists(String id){
-        log.debug("SkuManager.skuExists " + id);
+        if(id==null || id.isEmpty()) return false;
         return skuDataRepository.findById(id).isPresent();
     }
     public SkuData getSkuData(String id){
-        if(!skuExists(id)){
-            log.info(" '{}' SKU not found",id);
-            return null;
-        }
         Optional<SkuData> res= skuDataRepository.findById(id);
+        if(res.isEmpty()) log.info(" '{}' SKU not found",id);
         return res.orElse(null);
     }
     public SkuData saveSkuData(SkuData sku){
-        if(sku==null) return null;
+        if(sku==null){
+            log.debug("sku is null");
+            return null;
+        }
         return skuDataRepository.save(sku);
     }
 
     public void deleteSku(String id){
-        if(getSkuData(id) == null){
+        if(!skuExists(id)){
+            log.debug("sku not found");
             return;
         }
-        skuDataRepository.delete(getSkuData(id));
+        skuDataRepository.deleteById(id);
     }
     public void deleteEntities(String id){
-        if(!skuExists(id)){
-            return;
-        }
         for (SkuEntity skuEntity : getEntitiesForSku(id)){
             entityRepository.delete(skuEntity);
         }
@@ -89,4 +87,7 @@ public class SkuManager {
         return entityRepository.findByBarcode(getSkuData(barcode).getBarcode());
     }
 
+    public Set<SkuData> getAllSkuData() {
+        return new HashSet<>(skuDataRepository.findAll());
+    }
 }

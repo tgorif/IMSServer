@@ -1,3 +1,11 @@
 
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿª²²8ÓÜ§íì1
 _
 java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÊÑÆŒì1
+j
+java:S1128"MRemove this unused import 'com.tgorif.IMSServer.Sku.Core.AutoExpirationDate'.(¶¼Äï8ÖÜ§íì1
+j
+java:S1128"HRemove this unused import 'com.tgorif.IMSServer.Sku.Core.NutritionData'.(‰³¶¹ùÿÿÿÿ8ÖÜ§íì1
+_
+java:S1128"BRemove this unused import 'com.tgorif.IMSServer.Sku.Core.SkuData'.(Ÿµ˜Â8ÖÜ§íì1

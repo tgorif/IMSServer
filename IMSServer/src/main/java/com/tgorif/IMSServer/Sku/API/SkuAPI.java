@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
+import java.util.Set;
 
 @RestController
 public class SkuAPI {
@@ -121,6 +122,21 @@ public class SkuAPI {
         else{
             skuManager.deleteEntity(id);
             return new SkuAPIResponse(SKUResponseCode.ACCEPTED);
+        }
+    }
+    @GetMapping("/getSkuList")
+    public Set<SkuData> getSkuList() {
+        logger.log(Level.DEBUG,"request to get SkuList");
+        return skuManager.getAllSkuData();
+    }
+    @GetMapping("/getEntityList/{id}")
+    public Set<SkuEntity> getEntityList(@PathVariable String id) {
+        logger.log(Level.DEBUG,"request to get EntityList");
+        if(!skuManager.skuExists(id)){
+            return null;
+        }
+        else{
+            return skuManager.getEntitiesForSku(id);
         }
     }
 }
